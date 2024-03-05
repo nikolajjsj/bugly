@@ -7,15 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import Defaults
 
 @main
 struct buglyApp: App {
+    @Default(.theme) private var theme
+    
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+        let schema = Schema([Project.self, Issue.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
         do {
             return try ModelContainer(for: schema, configurations: [modelConfiguration])
         } catch {
@@ -25,7 +25,8 @@ struct buglyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
+                .preferredColorScheme(theme.colorScheme)
         }
         .modelContainer(sharedModelContainer)
     }
