@@ -8,20 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		D1DAAE412B974233009E6B26 /* buglyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE402B974233009E6B26 /* buglyApp.swift */; };
-		D1DAAE432B974233009E6B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE422B974233009E6B26 /* ContentView.swift */; };
-		D1DAAE452B974233009E6B26 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE442B974233009E6B26 /* Item.swift */; };
+		D1DAAE452B974233009E6B26 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE442B974233009E6B26 /* Issue.swift */; };
 		D1DAAE472B974235009E6B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DAAE462B974235009E6B26 /* Assets.xcassets */; };
-		D1DAAE4B2B974235009E6B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1DAAE4A2B974235009E6B26 /* Preview Assets.xcassets */; };
+		D1DAAE552B9742AF009E6B26 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE542B9742AF009E6B26 /* AppView.swift */; };
+		D1DAAE572B9742CB009E6B26 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE562B9742CB009E6B26 /* Project.swift */; };
+		D1DAAE5A2B97437E009E6B26 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = D1DAAE592B97437E009E6B26 /* Defaults */; };
+		D1DAAE5C2B97438A009E6B26 /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE5B2B97438A009E6B26 /* Prefs.swift */; };
+		D1DAAE5E2B974441009E6B26 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE5D2B974441009E6B26 /* HomeView.swift */; };
+		D1DAAE602B974559009E6B26 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE5F2B974559009E6B26 /* ProjectView.swift */; };
+		D1DAAE622B974560009E6B26 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE612B974560009E6B26 /* IssueView.swift */; };
+		D1DAAE652B974704009E6B26 /* CreateIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE642B974704009E6B26 /* CreateIssue.swift */; };
+		D1DAAE672B974751009E6B26 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE662B974751009E6B26 /* IssueRow.swift */; };
+		D1DAAE692B974853009E6B26 /* CreateProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE682B974853009E6B26 /* CreateProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1DAAE3D2B974233009E6B26 /* bugly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bugly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DAAE402B974233009E6B26 /* buglyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buglyApp.swift; sourceTree = "<group>"; };
-		D1DAAE422B974233009E6B26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D1DAAE442B974233009E6B26 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D1DAAE442B974233009E6B26 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
 		D1DAAE462B974235009E6B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1DAAE482B974235009E6B26 /* bugly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bugly.entitlements; sourceTree = "<group>"; };
-		D1DAAE4A2B974235009E6B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1DAAE542B9742AF009E6B26 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		D1DAAE562B9742CB009E6B26 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		D1DAAE5B2B97438A009E6B26 /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
+		D1DAAE5D2B974441009E6B26 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D1DAAE5F2B974559009E6B26 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		D1DAAE612B974560009E6B26 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		D1DAAE642B974704009E6B26 /* CreateIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIssue.swift; sourceTree = "<group>"; };
+		D1DAAE662B974751009E6B26 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		D1DAAE682B974853009E6B26 /* CreateProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DAAE5A2B97437E009E6B26 /* Defaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,21 +71,52 @@
 			isa = PBXGroup;
 			children = (
 				D1DAAE402B974233009E6B26 /* buglyApp.swift */,
-				D1DAAE422B974233009E6B26 /* ContentView.swift */,
-				D1DAAE442B974233009E6B26 /* Item.swift */,
+				D1DAAE512B974291009E6B26 /* lifecycle */,
+				D1DAAE532B97429F009E6B26 /* models */,
+				D1DAAE522B974297009E6B26 /* views */,
+				D1DAAE632B9746F5009E6B26 /* components */,
 				D1DAAE462B974235009E6B26 /* Assets.xcassets */,
 				D1DAAE482B974235009E6B26 /* bugly.entitlements */,
-				D1DAAE492B974235009E6B26 /* Preview Content */,
 			);
 			path = bugly;
 			sourceTree = "<group>";
 		};
-		D1DAAE492B974235009E6B26 /* Preview Content */ = {
+		D1DAAE512B974291009E6B26 /* lifecycle */ = {
 			isa = PBXGroup;
 			children = (
-				D1DAAE4A2B974235009E6B26 /* Preview Assets.xcassets */,
+				D1DAAE5B2B97438A009E6B26 /* Prefs.swift */,
 			);
-			path = "Preview Content";
+			path = lifecycle;
+			sourceTree = "<group>";
+		};
+		D1DAAE522B974297009E6B26 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D1DAAE542B9742AF009E6B26 /* AppView.swift */,
+				D1DAAE5D2B974441009E6B26 /* HomeView.swift */,
+				D1DAAE5F2B974559009E6B26 /* ProjectView.swift */,
+				D1DAAE612B974560009E6B26 /* IssueView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D1DAAE532B97429F009E6B26 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D1DAAE442B974233009E6B26 /* Issue.swift */,
+				D1DAAE562B9742CB009E6B26 /* Project.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D1DAAE632B9746F5009E6B26 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				D1DAAE662B974751009E6B26 /* IssueRow.swift */,
+				D1DAAE642B974704009E6B26 /* CreateIssue.swift */,
+				D1DAAE682B974853009E6B26 /* CreateProject.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +135,9 @@
 			dependencies = (
 			);
 			name = bugly;
+			packageProductDependencies = (
+				D1DAAE592B97437E009E6B26 /* Defaults */,
+			);
 			productName = bugly;
 			productReference = D1DAAE3D2B974233009E6B26 /* bugly.app */;
 			productType = "com.apple.product-type.application";
@@ -116,6 +166,9 @@
 				Base,
 			);
 			mainGroup = D1DAAE342B974233009E6B26;
+			packageReferences = (
+				D1DAAE582B97437E009E6B26 /* XCRemoteSwiftPackageReference "Defaults" */,
+			);
 			productRefGroup = D1DAAE3E2B974233009E6B26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +183,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1DAAE4B2B974235009E6B26 /* Preview Assets.xcassets in Resources */,
 				D1DAAE472B974235009E6B26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,8 +194,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1DAAE432B974233009E6B26 /* ContentView.swift in Sources */,
-				D1DAAE452B974233009E6B26 /* Item.swift in Sources */,
+				D1DAAE652B974704009E6B26 /* CreateIssue.swift in Sources */,
+				D1DAAE552B9742AF009E6B26 /* AppView.swift in Sources */,
+				D1DAAE452B974233009E6B26 /* Issue.swift in Sources */,
+				D1DAAE5C2B97438A009E6B26 /* Prefs.swift in Sources */,
+				D1DAAE5E2B974441009E6B26 /* HomeView.swift in Sources */,
+				D1DAAE692B974853009E6B26 /* CreateProject.swift in Sources */,
+				D1DAAE602B974559009E6B26 /* ProjectView.swift in Sources */,
+				D1DAAE572B9742CB009E6B26 /* Project.swift in Sources */,
+				D1DAAE622B974560009E6B26 /* IssueView.swift in Sources */,
+				D1DAAE672B974751009E6B26 /* IssueRow.swift in Sources */,
 				D1DAAE412B974233009E6B26 /* buglyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,11 +333,12 @@
 				CODE_SIGN_ENTITLEMENTS = bugly/bugly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bugly/Preview Content\"";
 				DEVELOPMENT_TEAM = YRQMPX5YW2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bugly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -296,7 +357,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolajjsj.bugly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,11 +373,12 @@
 				CODE_SIGN_ENTITLEMENTS = bugly/bugly.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"bugly/Preview Content\"";
 				DEVELOPMENT_TEAM = YRQMPX5YW2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bugly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -334,7 +397,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikolajjsj.bugly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +427,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1DAAE582B97437E009E6B26 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1DAAE592B97437E009E6B26 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1DAAE582B97437E009E6B26 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1DAAE352B974233009E6B26 /* Project object */;
 }
