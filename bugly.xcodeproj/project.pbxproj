@@ -20,6 +20,7 @@
 		D1DAAE652B974704009E6B26 /* CreateIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE642B974704009E6B26 /* CreateIssue.swift */; };
 		D1DAAE672B974751009E6B26 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE662B974751009E6B26 /* IssueRow.swift */; };
 		D1DAAE692B974853009E6B26 /* CreateProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE682B974853009E6B26 /* CreateProject.swift */; };
+		D1DAAE6C2B9757FE009E6B26 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAAE6B2B9757FE009E6B26 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		D1DAAE642B974704009E6B26 /* CreateIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIssue.swift; sourceTree = "<group>"; };
 		D1DAAE662B974751009E6B26 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		D1DAAE682B974853009E6B26 /* CreateProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProject.swift; sourceTree = "<group>"; };
+		D1DAAE6B2B9757FE009E6B26 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		D1DAAE522B974297009E6B26 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				D1DAAE6A2B9757F1009E6B26 /* settings */,
 				D1DAAE542B9742AF009E6B26 /* AppView.swift */,
 				D1DAAE5D2B974441009E6B26 /* HomeView.swift */,
 				D1DAAE5F2B974559009E6B26 /* ProjectView.swift */,
@@ -117,6 +120,14 @@
 				D1DAAE682B974853009E6B26 /* CreateProject.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		D1DAAE6A2B9757F1009E6B26 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				D1DAAE6B2B9757FE009E6B26 /* SettingsView.swift */,
+			);
+			path = settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				D1DAAE602B974559009E6B26 /* ProjectView.swift in Sources */,
 				D1DAAE572B9742CB009E6B26 /* Project.swift in Sources */,
 				D1DAAE622B974560009E6B26 /* IssueView.swift in Sources */,
+				D1DAAE6C2B9757FE009E6B26 /* SettingsView.swift in Sources */,
 				D1DAAE672B974751009E6B26 /* IssueRow.swift in Sources */,
 				D1DAAE412B974233009E6B26 /* buglyApp.swift in Sources */,
 			);
